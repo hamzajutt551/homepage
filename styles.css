@@ -1,0 +1,130 @@
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+/* Navbar Styling */
+.navbar {
+    background: black;
+    padding: 10px 20px;
+    box-shadow: 0px 4px 10px rgba(128, 128, 128, 0.5);
+}
+.navbar-nav .nav-link:hover {
+    color: #ffc107 !important;
+}
+/* Header Styling */
+.header {
+    background-color: black;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+.header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffc107;
+}
+/* Search Box */
+.search-box input {
+    width: 250px;
+    padding: 12px;
+    border-radius: 25px;
+    border: 2px solid #ffc107;
+    font-size: 16px;
+    outline: none;
+    background: black;
+    color: white;
+}
+.search-box input::placeholder {
+    color: #ffc107;
+}
+.search-box button {
+    background: #ffc107;
+    color: black;
+    margin-left: 15px;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 14px;
+}
+.search-box button:hover {
+    background: darkgoldenrod;
+}
+/* Platform Selector */
+.btn-custom {
+
+    background: #ffc107;
+    color: black;
+    border-radius: 40px;
+    border: none;
+    font-weight: bold;
+}
+.btn-custom:hover {
+    background: darkgoldenrod;
+    color: black;
+}
+.dropdown-menu {
+    width: 250px;
+    background: black;
+    border: 1px solid #ffc107;
+}
+.dropdown-item {
+    color: #ffc107;
+}
+.dropdown-item:hover {
+    background-color: #ffc107;
+    color: black !important;
+}
+ /* Sports Categories Styling */
+ .sports-category {
+    padding: 20px;
+    background: linear-gradient(135deg, #343a40, #495057);
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    color: #ffc107;
+    font-weight: bold;
+}
+.sports-category i {
+    font-size: 2.5rem;
+}
+.sports-category:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0px 15px 25px rgba(255, 193, 7, 0.5);
+}
+/* Sports Categories Section */
+.sports-categories-section {
+
+padding: 20px;
+border-radius: 8px;
+color: #ffcc00; 
+}
+
+.sports-category {
+border-radius: 8px;
+transition: all 0.3s ease-in-out;
+color: #ffcc00; 
+}
+
+.sports-category:hover {
+
+transform: scale(1.05);
+}
+
+.sports-category i {
+color: #ffcc00; /* Icon color */
+}
+
+.sports-category .category-title {
+font-size: 18px;
+font-weight: bold;
+color: #ffcc00; 
+margin-top: 8px;
+display: block;
+}
+#cust_btn{
+border: 2px solid #ffc107;
+padding: 13px;
+border-radius: 46px;
+}
