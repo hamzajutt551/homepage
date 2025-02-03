@@ -128,3 +128,16 @@ border: 2px solid #ffc107;
 padding: 13px;
 border-radius: 46px;
 }
+/* موبائل اور ٹیبلٹ پر لاگ آؤٹ اور پروفائل آئیکن چھپانے کے لیے */
+@media (max-width: 991px) {
+    .logout-section {
+        display: none !important;
+    }
+
+    /* جب navbar کھلے، تو logout-section نظر آئے */
+    .navbar-collapse.show .logout-section {
+        display: flex !important;
+    }
+    
+}
+
